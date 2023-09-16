@@ -1,0 +1,91 @@
+/* Estilos para pantalla grande */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para tabletas */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social li {
+    margin-right: 10px;
+    display: inline;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Estilos para los íconos sociales (Font Awesome) */
+.fa-facebook::before {
+    content: "\f09a";
+}
+
+.fa-twitter::before {
+    content: "\f099";
+}
+
+.fa-instagram::before {
+    content: "\f16d";
+}
